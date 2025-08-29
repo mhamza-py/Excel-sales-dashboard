@@ -2,23 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Excel Sales Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    .btn {
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    a {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background: #0366d6;
+      padding: 10px 20px;
+      background: #0073e6;
       color: white;
-      border-radius: 4px;
       text-decoration: none;
+      border-radius: 5px;
+    }
+    a:hover {
+      background: #005bb5;
     }
   </style>
 </head>
 <body>
   <h1>Excel Sales Dashboard</h1>
-  <p>This interactive Excel Pivot Table dashboard shows sales by product, month, and region.</p>
-  <a class="btn" href="Sales_Data.xlsx" download>Download Excel File</a>
+  <p>Interactive dashboard created using Excel Pivot Tables + Slicers.</p>
+  
+  <!-- Dashboard Image -->
+  <img src="sales.png" alt="Excel Sales Dashboard">
+
+  <!-- Excel File Download Link -->
+  <p>
+    <a href="sales-dashboard.xlsx" download>Download Excel File</a>
+  </p>
 </body>
 </html>
